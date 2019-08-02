@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css?family=Space+Mono&display=swap');
+
+@font-face{
+    font-family: Hyperspace;
+        src:  url(assets/fonts/Hyperspace%20Bold.otf); 
+}
+
+@font-face{
+    font-family: 'Space Grotesk';
+        src: url(assets/fonts/SpaceGrotesk-Regular.otf); 
+}
+
+html {
+    cursor: url(assets/cursor2.png), auto; 
+}
+body {
+    background: #000; 
+    color: #FFF; 
+    font-family: 'Space Grotesk', monospace; 
+    background-image: url(assets/spaceback.png); 
+    overflow: auto;
+}
+
+header {
+    text-align: center; 
+    background: black; 
+}
+header h1 {
+    font-family: 'Hyperspace';
+}
+header h2 {
+    font-family: 'Space Mono';
+}
+.outline {
+    background: white; 
+    float: left; 
+    text-align: center; 
+    padding: 5px; 
+    margin: 10px 0px 0px 10px;
+    overflow: hidden; 
+    position: fixed; 
+    font-family: 'Space Mono'
+}
+.outline ul {
+    list-style-type: none;
+    padding: 5px; 
+}
+
+.outline h3 {
+    color: black;
+}
+
+.outline a {
+    text-decoration: none; 
+    color: black;
+}
+
+.outline a:hover {
+    background: black; 
+    color: white;
+}
+
+.text {
+    background: white; 
+    margin: 40px 20px 0 350px ;
+    padding: 15px; 
+    color: black; 
+    width: 60%; 
+    float: right; 
+    overflow: hidden; 
+    text-indent: auto; 
+}
+
+.text a {
+    color: black;
+}
+
+.text a:hover {
+    background: black; 
+    color: white;
+}
