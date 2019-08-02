@@ -72,6 +72,8 @@ header h2 {
     width: 60%; 
     float: right; 
     overflow: hidden; 
+    line-height: 1.6rem;
+    text-align: justify
 }
 
 .tabbed {
@@ -90,6 +92,7 @@ header h2 {
 #img1 {
     float: right; 
     width: 33%;
+    margin-left: 10px;
   
 }
 #img2 {
